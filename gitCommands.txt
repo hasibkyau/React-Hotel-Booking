@@ -1,0 +1,15 @@
+#Cleaning ignored file
+$ git rm -r cached
+$ git add .
+$ git commit -m "Clean up ignored file"
+
+
+#Change git remote Url
+-->check our existing remote
+$ git remote -v 
+-->change remote Url
+$ git remote set-url origin https://github.com/hasibkyau/exmple
+-->verify the new remote URL
+$ git remote -v origin
+
+#

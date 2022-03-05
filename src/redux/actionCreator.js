@@ -2,9 +2,9 @@ import * as actionTypes from './actionTypes';
 import axios from 'axios';
 import { baseUrl } from './baseUrl';
 
-export const addComment = (photoId, rating, author, comment) => dispatch => {
+export const addComment = (hotelId, rating, author, comment) => dispatch => {
     const newComment = {
-        photoId: photoId,
+        hotelId: hotelId,
         author: author,
         rating: rating,
         comment: comment
@@ -38,27 +38,27 @@ export const fetchComments = () => dispatch => {
 }
 
 
-const loadPhotos = photos => ({
-    type: actionTypes.LOAD_PHOTOS,
-    payload: photos
+const loadHotels = hotels => ({
+    type: actionTypes.LOAD_HOTELS,
+    payload: hotels
 })
 
-const photosLoading = () => ({
-    type: actionTypes.PHOTOS_LOADING,
+const hotelsLoading = () => ({
+    type: actionTypes.HOTELS_LOADING,
 })
 
-const photosFailed = (errMess) => ({
-    type: actionTypes.PHOTOS_FAILED,
+const hotelsFailed = (errMess) => ({
+    type: actionTypes.HOTELS_FAILED,
     payload: errMess
 })
 
-export const fetchPhotos = () => dispatch => {
-        dispatch(photosLoading());
+export const fetchHotels = () => dispatch => {
+        dispatch(hotelsLoading());
 
-        axios.get(baseUrl + "photos")
+        axios.get(baseUrl + "hotels")
         .then(response => response.data)
-        .then(photos => dispatch(loadPhotos(photos)))
-        .catch(error => dispatch(photosFailed(error.message)))
+        .then(hotels => dispatch(loadHotels(hotels)))
+        .catch(error => dispatch(hotelsFailed(error.message)))
 }
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import './css/banner.css'
-import bgImg from '../../assets/images/bg0.jpg'
+import bgImg from '../../assets/images/bg2.jpg'
 
 const BannerSection = (props) => {
     return (
@@ -11,8 +11,8 @@ const BannerSection = (props) => {
 
                         <div className="banner-text">
                             <div className="companyName">
-                                <span style={{ color: "#262626"}}>{props.companyName.fname}</span>
-                                <span style={{ color: "#81B441"}}>{props.companyName.lname}</span>
+                                <span style={{ color: "red"}}>{props.companyName.fname}</span>
+                                <span style={{ color: "white"}}>{props.companyName.lname}</span>
                             </div>
                             <h1 style={{ color: "white" }}>{props.title}</h1>
                             <h5 style={{ color: "white" }}>{props.subtitle}</h5>

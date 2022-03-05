@@ -1,27 +1,20 @@
 import React, { Component } from "react";
 import BannerSection from "./BannerSection";
-import AdvertiseSection from "./AdvertiseSection";
-import PhotoSection from "./PhotoSection";
+import HotelSection from "./HotelSection";
 
 class Home extends Component {
     render() {
         return (
             <div>
                 <BannerSection
-                    companyName={{ fname: "Photo", lname: "Gallery" }}
-                    title="The world of photography"
-                    subtitle="This is an assignment for Bohubrihi"
+                    companyName={{ fname: "Hotel", lname: "Booking" }}
+                    title="Book Your Favourite Hotel Online !"
+                    subtitle="Book Your Favourite Hotel Online !"
                     align="left"
                     button={{ text: "Sign up for free", backgroundColor: "", size: "" }}
                 />
 
-                <AdvertiseSection
-                    AdvertiseTitle='Upload your photography'
-                    AdvertiseDetails="Would you like millions of people see your photography? It's simple: we list your photography lists online. Let's start our partnership today!"
-                    button={{ text: "Get Started" }}
-                />
-
-                <PhotoSection />
+                <HotelSection />
 
             </div>
 
