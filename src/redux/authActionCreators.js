@@ -24,7 +24,7 @@ export const auth = (email, password, mode) => dispatch => {
     } else {
         authUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=";
     }
-    const API_KEY = "AIzaSyD-kCfQyryjBxC4XLp7kvD8A35aN9vK2To";
+    const API_KEY = "AIzaSyB4PRpYBqSyWdtFwlsI26v1PIqMLqZliyA";
     axios.post(authUrl + API_KEY, authData)
         .then(response => {
             localStorage.setItem('token', response.data.idToken);
@@ -36,7 +36,7 @@ export const auth = (email, password, mode) => dispatch => {
 }
 
 export const logout = () => {
-    console.log("logout");
+   
     localStorage.removeItem('token');
     localStorage.removeItem('expirationTime');
     localStorage.removeItem('userId');
