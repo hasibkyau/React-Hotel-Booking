@@ -29,6 +29,8 @@ const Hotel = props => {
             </div>
 
             <div className='col-2 p-2'>
+                <h5 style={{fontWeight:'bold'}}>Availability : {props.hotel.room}</h5>
+                <br/>
                 <button onClick={props.HotelSelect} className='btn btn-success'>Book Now</button>            
            </div>
         </div>

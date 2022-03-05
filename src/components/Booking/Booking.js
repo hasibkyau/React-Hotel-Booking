@@ -23,38 +23,35 @@ class Booking extends Component {
                         lastname: "",
                         telnum: "",
                         email: "",
-                        agree: false,
-                        contactType: "",
-                        message: "",
+                        hotel : this.props.hotel.name,
+                        price : this.props.hotel.price,
+                        category : this.props.hotel.category,
                     }
                 }
 
-                    validate={values => {
-                        const errors = {};
-                        if (!values.email) {
-                            errors.email = 'Required';
-                        } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
-                            errors.email = 'Invalid email address';
-                        }
-                        return errors;
-                    }}
-
                     onSubmit={(values, { setSubmitting }) => {
-                        setTimeout(() => {
-                            alert(JSON.stringify(values, null, 2));
-                            setSubmitting(false);
-                        }, 400);
-                        axios.post(baseUrl + "feedback", values)
-                            .then(response => response.status)
+                        console.log("hello");
+                        // const hotel = this.props.hotel;
+                        // hotel.room = this.props.hotel.room - 1;
+                        
+                        axios.post("https://react-hotel-booking-8a9d3-default-rtdb.firebaseio.com/booking.json", values)
+                            .then(response => {
+                                console.log(response);
+                            })
                     }}
                 >
 
-                    {({ values, errors, touched, handleChange, handleSubmit, isSubmitting }) => (
-                        <Form className="container col-12 col-lg-6" onSubmit={handleSubmit}>
-                            <h3>Send us your Feedback</h3><br />
+                    {({ values, handleChange, handleSubmit}) => (
+                        <Form className="col-12" onSubmit={handleSubmit}>
+                            <h3>Confirm Booking</h3><br />
+                            <h4>{this.props.hotel.name}</h4>
+                            <h5>{this.props.hotel.category}</h5>
+                            <h5>Price : {this.props.hotel.price} BDT</h5>
+                            <br/>
                             <FormGroup>
                                 <Label>firstname</Label>
                                 <Input
+                                    required
                                     type="text"
                                     name="firstname"
                                     onChange={handleChange}
@@ -64,6 +61,7 @@ class Booking extends Component {
                             <FormGroup>
                                 <Label>Last Name</Label>
                                 <Input
+                                    required
                                     type="text"
                                     name="lastname"
                                     onChange={handleChange}
@@ -72,8 +70,9 @@ class Booking extends Component {
                             </FormGroup>
 
                             <FormGroup>
-                                <Label>Contact</Label>
+                                <Label>Phone Number</Label>
                                 <Input
+                                    required
                                     type="number"
                                     name="telnum"
                                     onChange={handleChange}
@@ -81,27 +80,7 @@ class Booking extends Component {
                                 />
                             </FormGroup>
 
-                            <FormGroup>
-                                <Label>Email</Label>
-                                <Input
-                                    type="email"
-                                    name="email"
-                                    onChange={handleChange}
-                                    value={values.email}
-                                />
-                            </FormGroup>
-
-                            <FormGroup>
-                                <Label>Your Feedback</Label>
-                                <Input
-                                    type="textarea"
-                                    name="message"
-                                    onChange={handleChange}
-                                    value={values.message}
-                                />
-                            </FormGroup>
-
-                            <Button type="submit" disabled={isSubmitting}>
+                            <Button type="submit">
                                 Submit
                             </Button>
                         </Form>
