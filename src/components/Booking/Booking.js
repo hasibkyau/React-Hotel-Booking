@@ -5,7 +5,6 @@ import { Alert } from "reactstrap";
 import { Formik } from 'formik';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
-
 class Booking extends Component {
     state = {
         alertShow: false,
@@ -30,14 +29,16 @@ class Booking extends Component {
                 }
 
                     onSubmit={(values, { setSubmitting }) => {
-                        console.log("hello");
-                        // const hotel = this.props.hotel;
-                        // hotel.room = this.props.hotel.room - 1;
+                         const hotel = this.props.hotel;
+                         hotel.room = this.props.hotel.room - 1;
                         
                         axios.post("https://react-hotel-booking-8a9d3-default-rtdb.firebaseio.com/booking.json", values)
                             .then(response => {
-                                console.log(response);
+                                axios.put("https://react-hotel-booking-8a9d3-default-rtdb.firebaseio.com/hotels/"+this.props.hotel.id+".json", hotel)
+                                .then(response => console.log("updated"))
                             })
+                            window.alert("Room Booked for you!");
+                        this.props.toggleModal();
                     }}
                 >
 
