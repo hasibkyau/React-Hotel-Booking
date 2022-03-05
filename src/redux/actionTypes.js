@@ -2,9 +2,9 @@ export const ADD_COMMENT = 'ADD_COMMENT';
 export const LOAD_COMMENTS = 'LOAD_COMMENTS';
 export const COMMENT_LOADING = 'COMMENT_LOADING';
 
-export const LOAD_PHOTOS = 'LOAD_PHOTOS';
-export const PHOTOS_LOADING = 'PHOTOS_LOADING';
-export const PHOTOS_FAILED = 'PHOTOS_FAILED';
+export const LOAD_HOTELS = 'LOAD_HOTELS';
+export const HOTELS_LOADING = 'HOTELS_LOADING';
+export const HOTELS_FAILED = 'HOTELS_FAILED';
 
 
 export const ADD_FEEDBACK = 'ADD_FEEDBACK';

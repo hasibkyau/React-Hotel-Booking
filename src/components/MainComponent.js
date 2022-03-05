@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import Header from "./header/Header";
 import Home from "./Home/Home";
-import Contact from "./Contact/Contact";
 import Feedback from "./feedback/Feedback";
 import Auth from "./Auth/Auth";
 import { Redirect, Route, Switch } from "react-router-dom";
 import { connect } from 'react-redux';
 import { auth, authCheck } from '../redux/authActionCreators';
 import Logout from "./Auth/Logout";
-import Photos from "./Photos/Photos";
+import Hotels from "./Hotels/Hotels";
 
 const mapStateToProps = state => {
     return {
@@ -31,9 +30,8 @@ class MainComponent extends Component {
         if (this.props.auth.token === null) {
             routes = (
                 <Switch>
-                    <Route path="/contact" exact component={Auth} />
                     <Route path="/login" component={Auth} />
-                    <Route path="/photography" component = {Photos}/>
+                    <Route path="/hotels" component = {Hotels}/>
                     <Route path = "/" component={Home} />
                 </Switch>
             )
@@ -41,8 +39,7 @@ class MainComponent extends Component {
             routes = (
                 <div>
                     <Switch>
-                        <Route path="/photography" component = {Photos}/>   
-                        <Route path="/contact" exact component={Contact} />
+                        <Route path="/hotels" component = {Hotels}/>  
                         <Route path="/feedback" exact component={Feedback} />
                         <Route path="/logout" component={Logout} />
                         <Route path = "/" component={Home} />

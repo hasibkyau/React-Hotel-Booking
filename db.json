@@ -1,207 +1,97 @@
 {
-  "photos": [
+  "hotels": [
     {
       "id": 0,
-      "name": "Bee 02",
-      "image": "images/bee02.jpg",
-      "category": "Insect",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Doreen Hotel Dhaka",
+      "image": "images/hotel01.jpg",
+      "category": "Deluxe Single Room",
+      "price" : 5097,
+      "room" : 1, 
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 1,
-      "name": "Bee 01",
-      "image": "images/bee01.jpg",
-      "category": "Insect",
-      "label": "",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Royal Park Residence Hotel",
+      "image": "images/hotel02.jpg",
+      "category": "Deluxe Single Room",
+      "price": 2375,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 2,
-      "name": "Bear",
-      "image": "images/bear01.jpg",
-      "category": "Animal",
-      "featured": true,
-      "description": "This is a huge wild bear typycally found in jungle"
+      "name": "Hotel 71",
+      "image": "images/hotel03.jpg",
+      "category": "Premier Single Room",
+      "price": 2375,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 3,
-      "name": "Bee 03",
-      "image": "images/bee03.jpg",
-      "category": "Insect",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Hotel Grand Cicle Inn",
+      "image": "images/hotel04.jpg",
+      "category": "Deluxe King Room",
+      "price": 2576,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 4,
-      "name": "Bird 01",
-      "image": "images/bird01.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Hotel Shuktara",
+      "image": "images/hotel05.jpg",
+      "category": "Standard Signle Room",
+      "price": 3100,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 5,
-      "name": "Bird 02",
-      "image": "images/bird02.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Hotel",
+      "image": "images/hotel06.jpg",
+      "category": "Standard Double Room",
+      "price": 5200,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 6,
-      "name": "Spider 02",
-      "image": "images/spider02.jpg",
-      "category": "Insect",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Rafflesia Serviced Apartments",
+      "image": "images/hotel07.jpg",
+      "category": "Standard Double Room",
+      "price": 5100,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 7,
-      "name": "Bird 04",
-      "image": "images/bird04.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Hotel the Rahamania",
+      "image": "images/hotel08.jpg",
+      "category": "Deluxe Single Room",
+      "price": 2300,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 8,
-      "name": "Redpanda 01",
-      "image": "images/redpanda01.jpg",
-      "category": "Animal",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Bengal Blueberry",
+      "image": "images/hotel09.jpg",
+      "category": "Standard Single Room",
+      "price": 3200,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     },
     {
       "id": 9,
-      "name": "Bird 06",
-      "image": "images/bird06.jpeg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 10,
-      "name": "Bird 07",
-      "image": "images/bird07.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 11,
-      "name": "Bird 08",
-      "image": "images/bird08.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 12,
-      "name": "Bird 09",
-      "image": "images/bird09.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 13,
-      "name": "Bird 05",
-      "image": "images/bird05.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 14,
-      "name": "Redpanda 02",
-      "image": "images/redpanda02.jpg",
-      "category": "Animal",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 15,
-      "name": "Elephant 01",
-      "image": "images/elephant01.jpg",
-      "category": "Animal",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 16,
-      "name": "Spider 01",
-      "image": "images/spider01.jpg",
-      "category": "Insect",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 17,
-      "name": "Bird 03",
-      "image": "images/bird03.jpg",
-      "category": "Bird",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 18,
-      "name": "Spider 03",
-      "image": "images/spider03.jpg",
-      "category": "Insect",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 19,
-      "name": "Squirrel 01",
-      "image": "images/squirrel01.jpg",
-      "category": "Animal",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 20,
-      "name": "Squirrel 02",
-      "image": "images/squirrel02.jpg",
-      "category": "Animal",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 21,
-      "name": "Lion 01",
-      "image": "images/lion01.jpg",
-      "category": "Predetor",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 22,
-      "name": "Lion 02",
-      "image": "images/lion02.jpg",
-      "category": "Predetor",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 23,
-      "name": "Deer 01",
-      "image": "images/deer01.webp",
-      "category": "Animal",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
-    },
-    {
-      "id": 24,
-      "name": "Dolphine 01",
-      "image": "images/dolphine01.jpg",
-      "category": "Animal",
-      "featured": false,
-      "description": "Duis at placerat massa, eu accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus blandit, sapien sit amet tincidunt bibendum, ex odio lacinia urna, nec maximus ex lacus id leo. Nam hendrerit iaculis maximus. Aliquam erat volutpat. Sed nec neque dictum felis fringilla eleifend. Nam sed pellentesque sem, eget finibus augue. "
+      "name": "Grace 21",
+      "image": "images/hotel10.jpg",
+      "category": "Premier Single Room",
+      "price": 3200,
+      "room" : 1,
+      "description": "Located in Dhaka, 600 metres from Southeast University, The Midori by Lakeshore, Gulshan, Dhaka provides accommodation with a restaurant, free private parking, a fitness centre and a shared lounge. "
     }
   ],
+
   "comments": [
     {
       "photoId": 0,

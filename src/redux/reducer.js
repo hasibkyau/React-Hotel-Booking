@@ -23,31 +23,31 @@ export const authReducer = (authState = {token: null, userId: null}, action) => 
     }
 }
 
-const photoReducer = (photoState = { isLoading: false, photos: [], errMess: null }, action) => {
+const hotelReducer = (hotelState = { isLoading: false, hotels: [], errMess: null }, action) => {
     switch (action.type) {
-        case actionTypes.PHOTOS_LOADING:
+        case actionTypes.HOTELS_LOADING:
             return {
-                ...photoState,
+                ...hotelState,
                 isLoading: true,
                 errMess: null,
-                photos: []
+                hotels: []
             }
-        case actionTypes.LOAD_PHOTOS:
+        case actionTypes.LOAD_HOTELS:
             return {
-                ...photoState,
+                ...hotelState,
                 isLoading: false,
                 errMess: null,
-                photos: action.payload,
+                hotels: action.payload,
             }
-        case actionTypes.PHOTOS_FAILED:
+        case actionTypes.HOTELS_FAILED:
             return {
-                ...photoState,
+                ...hotelState,
                 isLoading: false,
                 errMess: action.payload,
-                photos: []
+                hotels: []
             }
         default:
-            return photoState;
+            return hotelState;
     }
 }
 
@@ -101,7 +101,7 @@ const feedbackReducer = (feedbackState = { isLoading: true, feedback: [] }, acti
 }
 
 export const Reducer = combineReducers({
-    photos: photoReducer,
+    hotels: hotelReducer,
     comments: commentReducer,
     ...createForms({
         feedback: InitialContactForm
