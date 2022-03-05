@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "./header/Header";
 import Home from "./Home/Home";
-import Feedback from "./feedback/Feedback";
 import Auth from "./Auth/Auth";
 import { Redirect, Route, Switch } from "react-router-dom";
 import { connect } from 'react-redux';
@@ -40,7 +39,6 @@ class MainComponent extends Component {
                 <div>
                     <Switch>
                         <Route path="/hotels" component = {Hotels}/>  
-                        <Route path="/feedback" exact component={Feedback} />
                         <Route path="/logout" component={Logout} />
                         <Route path = "/" component={Home} />
                     </Switch>

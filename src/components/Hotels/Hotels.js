@@ -112,7 +112,10 @@ class Hotels extends Component {
                             </div>
                             <Modal style={{ scrollable: "true" }} isOpen={this.state.modalOpen}>
                                 <ModalBody>
-                                    <Booking/>
+                                    <Booking 
+                                    hotel = {this.state.selectedHotel}
+                                    toggleModal = {this.toggleModal}
+                                    />
                                 </ModalBody>
                                 <ModalFooter>
                                     <Button color="secondary" onClick={this.toggleModal}>

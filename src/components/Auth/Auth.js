@@ -109,8 +109,7 @@ class Auth extends Component {
                                 </div> : null}
 
                                 <Button style={{ width: "100%" }} type="submit" className="btn btn-success">{this.state.mode === "Sign Up" ? "Sign Up" : "Login"}</Button>
-                                {this.state.mode === "Sign Up" ? <hr /> : <p>Forgot Password?</p>}
-                                
+                                {this.state.mode === "Sign Up" ? <hr /> : <p>Forgot Password?</p>}                                
                             </form>
                         </div>)}
                 </Formik>

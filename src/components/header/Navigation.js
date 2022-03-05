@@ -41,24 +41,12 @@ class Navigation extends Component {
                                     <Link to="/" className="nav-link">Home</Link>
                                 </NavItem>
 
-                                <NavItem>
-                                    <Link to="/photography" className="nav-link">PhotoGraphy</Link>
-                                </NavItem>
-
-
                                 {this.props.auth.userId === null ? 
                                 <NavItem>
                                     <Link to="/login" className="nav-link">Login</Link>
                                 </NavItem> 
                                 : 
                                 <> 
-                                
-                                <NavItem>
-                                    <Link to="/contact" className="nav-link">Contact</Link>
-                                </NavItem>    
-                                {/* <NavItem>
-                                    <Link to="/feedback" className="nav-link">Feedback</Link>
-                                </NavItem> */}
                                 <NavItem>
                                     <Link to="/logout" className="nav-link">Logout</Link>
                                 </NavItem>
